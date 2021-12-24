@@ -28,5 +28,5 @@ public class Constants {
     public static final String XXL_SCRIPT_JOB_HANDLER = "com.xxl.job.core.handler.impl.ScriptJobHandler";
     public static final String XXL_METHOD_JOB_HANDLER = "com.xxl.job.core.handler.impl.MethodJobHandler";
 
-    public static final AbstractTag JOB_PARAM = Tags.ofKey("jobParam");
+    public static final AbstractTag JOB_METHOD_NAME = Tags.ofKey("methodName");
 }
